@@ -37,6 +37,7 @@
         padding: 18px 35px;
         border-radius: 5px;
         border: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
@@ -199,11 +200,88 @@ main section{
 }
 
 
+/* Resume Section Styles */
+
 
 .resume-container{
 
     display: flex;
+    gap: 24px;
+    
+    
 }
+
+
+.experience-title{
+
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747 ;
+    margin-bottom: 10px;
+    
+}
+
+.experience-sub-title{
+
+    color: #757575;
+    font-weight: 600px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.experience-description{
+
+    color: #757575;
+}
+
+.resume hr{
+
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+
+    margin-top: 50px;
+}
+
+
+.footer-colum p{
+
+    font-size: 18px;
+}
+
+
+/* Footer Styles */
+
+footer{
+
+    padding: 130px 230px;
+    display: flex;
+}
+
+.footer-colum{
+
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], textarea{
+
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    height: 100%;
+    padding: 10px 20px; 
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+
+}
+
+
+
+
 
 
 
